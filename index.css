@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+
+/* section 6 */
+.section-6 {
+  height: 100vh;
+}
+
+.top {
+  height: 420px;
+  background-color: rgb(229, 225, 225);
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4em;
+}
+
+.top-text-area {
+  padding-left: 6em;
+}
+
+.analytics {
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 2.8em;
+  margin-top: 0;
+}
+
+.text {
+  font-size: 1.2em;
+  margin-top: -1em;
+  font-weight: 200;
+}
+
+.logo-img {
+  margin-top: 5em;
+  width: 50%;
+  height: 110%;
+}
+/* buttom section */
+.buttom {
+  height: 260px;
+  background-color: rgb(120, 87, 220);
+  margin-top: -1.2em;
+  padding-left: 6em;
+}
+
+.button-text-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5em;
+  z-index: 1;
+}
+
+.card-1 {
+  background-color: white;
+  width: 230px;
+  padding: 0.5em 1.6em;
+  margin-top: -2.5em;
+  line-height: 22px;
+}
+
+/* section 7 */
+
+.section-7 {
+  background-color: rgb(212, 249, 237);
+  height: 100vh;
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 25% 25% 50%;
+  grid-template-rows: 25% 25% 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  grid-template-areas:
+    "first second second"
+    "third second second"
+    "forth forth fiftth";
+  padding-left: 4em;
+}
+
+.section-7-image1 {
+  grid-area: first;
+  height: 96%;
+  object-fit: cover;
+  width: 97%;
+}
+.section-7-image2 {
+  grid-area: second;
+  height: 97%;
+  object-fit: cover;
+  width: 97%;
+}
+.section-7-div {
+  grid-area: third;
+  background-color: blueviolet;
+  color: black;
+  width: 97%;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  object-fit: cover;
+  height: 96%;
+}
+
+.section-7-image4 {
+  grid-area: fiftth;
+  width: 96%;
+  object-fit: cover;
+  height: 96%;
+}
+
+.section-7-image3 {
+  grid-area: forth;
+  width: 98%;
+  object-fit: cover;
+  height: 98%;
+}
+
+/* section-8 */
+
+.section-8 {
+  height: 100vh;
+  position: relative;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(221, 237, 254);
+  height: 400px;
+}
+
+.section-8-img1,
+.section-8-img2 {
+  width: 15%;
+  position: absolute;
+}
+
+.section-8-img2 {
+  top: -1em;
+  right: 90em;
+}
+.section-8-img1 {
+  top: 0;
+  left: 80.6em;
+}
+.section-8-decritp {
+  margin-top: 4em;
+  text-align: center;
+}
+
+.section-8-title {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.section-8-subtitle {
+  text-align: center;
+  font-size: 1.3em;
+}
