@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 /* section 6 */
@@ -131,6 +132,7 @@ body {
 .section-8 {
   height: 100vh;
   position: relative;
+  background-color: aqua;
 }
 
 .top-section {
@@ -138,7 +140,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   background-color: rgb(221, 237, 254);
-  height: 60vh;
+  /* background-color: red; */
+  height: 55vh;
 }
 
 .section-8-img1,
@@ -171,13 +174,59 @@ body {
 }
 
 .buttom-section {
-  height: 40vh;
-  background-color: aliceblue;
-  margin-top: -1.3em;
+  height: 45vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  /* margin-top: -1.3em; */
 }
 
 .section-8-card {
   background-color: white;
   width: 250px;
-  padding: 1em;
+  padding: 2em;
+  margin-top: -130px;
+  align-self: flex-start;
+  padding-bottom: 1.5em;
+}
+
+.section-8-card:nth-last-of-type(1) {
+  z-index: 222;
+}
+
+.section-8-card-list {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.mark {
+  background-color: #ecf4fd;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  padding: 5px 5px;
+}
+
+.card-subtitle {
+  margin-top: 0.5rem;
+}
+
+.card-price {
+  margin-top: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.card-price strong {
+  color: gray;
+  font-size: 1rem;
 }
